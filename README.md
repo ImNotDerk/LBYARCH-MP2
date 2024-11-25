@@ -150,5 +150,10 @@ Although invisible in the naked eye, this shows that the larger the input size, 
 O(n) complexity still persists in a linear runtime of execution dependent on the input size.<br>
 
 <h3>CORRECTNESS CHECK</h3>
-![image](https://github.com/user-attachments/assets/0962ed07-543b-4799-9e9a-7cb3f68554cf)
+![image](https://github.com/user-attachments/assets/0962ed07-543b-4799-9e9a-7cb3f68554cf) <br>
+More Correctness Check <br>
+![image](https://github.com/user-attachments/assets/97c89d1b-30f3-4f75-88d8-e26295a8c911)
+![image](https://github.com/user-attachments/assets/90559673-15f5-41b8-933b-88bfd7d4ec79)
+![image](https://github.com/user-attachments/assets/886e9bc4-d58e-4dc4-87ef-54a04d4d4e3e)
+
 
