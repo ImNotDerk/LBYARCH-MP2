@@ -20,19 +20,16 @@ int main() {
 	}
 
     clock_t start = clock();
-
 	for (i = 0; i < n; i++) {
 		funcOutputs[i] = computeAcceleration(inputs[i][0], inputs[i][1], inputs[i][2]);
 	}
 
-    clock_t end = clock();
-
-    double execution_time = (double)(end - start) / CLOCKS_PER_SEC;
-	
 	for (i = 0; i < n; i++) {
 		printf("\n%d\n", funcOutputs[i]);
 	}
+	clock_t end = clock();
 
+    double execution_time = (double)(end - start) / CLOCKS_PER_SEC;
     printf("\nTotal execution time: %f seconds\n", execution_time);
 	
 	return 0;
