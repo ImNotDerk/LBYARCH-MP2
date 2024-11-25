@@ -148,4 +148,7 @@ For 100 inputs, the execution is slightly lower compared to the previous at <b><
 For 10 inputs, the runtime is significantly smaller at <b><i>0.000367 seconds.</i></b><br>
 Although invisible in the naked eye, this shows that the larger the input size, the higher the amount in time that the code will run.<br>
 O(n) complexity still persists in a linear runtime of execution dependent on the input size.<br>
-![image](https://github.com/user-attachments/assets/3de32ea5-f527-47ed-b0f1-ae79a715fddd)
+
+<h3>CORRECTNESS CHECK</h3>
+![image](https://github.com/user-attachments/assets/0962ed07-543b-4799-9e9a-7cb3f68554cf)
+
