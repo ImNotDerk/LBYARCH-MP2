@@ -7,7 +7,8 @@ extern int computeAcceleration(float initV, float finalV, float time);
 int main() {
 	int i, j;
 	int n = 0;
-	
+	char b = ' ';
+
 	scanf("%d", &n);
 	
 	int* funcOutputs = (int*)malloc(n*sizeof(int));
@@ -16,6 +17,7 @@ int main() {
 	for (i = 0; i < n; i++) {
 		for (j = 0; j < 3; j++) {
 			scanf("%f", &inputs[i][j]);
+			scanf("%c", &b); 
 		}
 	}
 
